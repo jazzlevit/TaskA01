@@ -1,16 +1,58 @@
+@import "./components/extends.scss";
+
 .container {
     width: 1280px;
     height: 100%;
     margin: auto;
 }
+
+.header {
+    position: relative;
+    background-color: rgba(5, 65, 88, 0.993);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 40px 0;
+}
+
+.logo {
+    position: absolute;
+    left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.add {
+    background-color:  rgba(5, 65, 88, 0.993);
+    border:  rgba(3, 219, 75, 0.993) solid 1px;
+    @extend %header-buttons;
+
+    &:hover {
+        color: rgba(3, 219, 75, 0.993);
+    }
+}
+
+.remove {
+    background-color:  rgba(5, 65, 88, 0.993);
+    border:  rgba(245, 12, 12, 0.993) solid 1px;
+    @extend %header-buttons;
+
+    &:hover {
+       color: rgba(245, 12, 12, 0.993);
+    }
+}
+
 .inner {
-    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     &__item {
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
             transition: 0.4s ease-in-out;
         }
         width: 220px;
@@ -51,6 +93,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
+    outline: none;
     border-radius: 16px;
     padding: 5px;
     cursor: pointer;
