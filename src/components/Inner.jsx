@@ -8,7 +8,7 @@ class Inner extends React.Component {
                     <div className="image-wrapper">
                         <img className="image" src="https://i.pinimg.com/474x/01/73/f1/0173f1060ecafc83e58be838586517d5.jpg" alt="pic" />
                     </div>
-                    <div className="title">Title</div>
+                    <div className="title">BMW 7L</div>
                     <div className="description">$54000</div>
                     <button className="add-btn">купить</button>
                 </div>
@@ -16,7 +16,7 @@ class Inner extends React.Component {
                     <div className="image-wrapper">
                         <img className="image" src="https://i.pinimg.com/474x/50/eb/d1/50ebd1ba0836937fd4da4489ebfaeb96.jpg" alt="pic" />
                     </div>
-                    <div className="title">Title</div>
+                    <div className="title">BMW 5 Coupe</div>
                     <div className="description">$48000</div>
                     <button className="add-btn">купить</button>
                 </div>
@@ -24,7 +24,7 @@ class Inner extends React.Component {
                     <div className="image-wrapper">
                         <img className="image" src="https://i.pinimg.com/474x/87/55/3f/87553f94c3d3c608ab0a860175e53d92.jpg" alt="pic" />
                     </div>
-                    <div className="title">Title</div>
+                    <div className="title">Audi A8</div>
                     <div className="description">$52000</div>
                     <button className="add-btn">купить</button>
                 </div>
@@ -32,7 +32,7 @@ class Inner extends React.Component {
                     <div className="image-wrapper">
                         <img className="image" src="https://i.pinimg.com/474x/c3/0e/a0/c30ea0cd5b016d32139a6642affe1ee9.jpg" alt="pic" />
                     </div>
-                    <div className="title">Title</div>
+                    <div className="title">lincoln cq</div>
                     <div className="description">$37000</div>
                     <button className="add-btn">купить</button>
                 </div>
